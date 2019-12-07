@@ -11,11 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    //phpinfo();
-    $count ="";
-    $count = DB::table("users")->$count();
-    dump($count);
-    exit();
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    //phpinfo();
+//    $count ="";
+//    $count = DB::table("users")->$count();
+//    dump($count);
+//    exit();
+//    return view('welcome');
+//});
+
+Route::view('/{path?}', 'app');
