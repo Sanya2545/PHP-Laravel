@@ -1,0 +1,8 @@
+.content_center{
+    color:red;
+    display:flex;
+    justify-content: center;
+}
+.my_header{
+    width: 400px;
+}
